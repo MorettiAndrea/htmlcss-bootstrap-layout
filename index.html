@@ -29,21 +29,82 @@
 
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col -12 text-center mt-5 mb-3">
-          <h1>Bootstrap 5 responsive grid</h1>
-          <p>Layout a griglia con diversi layout(sm,md,lg)</p>
+      <div class="row gy-3 gx-0 ps-5 text-white">
+        <div class="col-12">
+          <div class="card border-0">
+            <h1>Bootstrap 5 responsive grid</h1>
+            <p>Layout a griglia con diversi layout(sm,md,lg)</p>
+          </div>
         </div>
-      </div>
-      <div class="row text-center">
-        <div class="col-12 col-md-6 col-l-4">
-          <h2>Colonna 1</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-            cupiditate?
-          </p>
+        <div class="col-12 col-md-6 col-lg-4 text-dark">
+          <div class="card ps-2 pe-2 pt-3 pb-3">
+            <h2>Colonna 1</h2>
+            <p>
+              Larghezza instera su dispositivi piccoli, metà larghezza su
+              dispositivi medi e un terzo su dispositivi grandi
+            </p>
+          </div>
         </div>
-        <div class="col-7"><h2>Colonna 2</h2></div>
+        <div class="col-12 col-md-6 col-lg-8">
+          <div class="card bg-secondary ps-5 pe-5 pt-3 pb-3">
+            <h2>Colonna 2</h2>
+            <p>
+              Larghezza instera su dispositivi piccoli, metà larghezza su
+              dispositivi medi e due terzi su dispositivi grandi
+            </p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="card bg-primary ps-2 pe-2">
+            <h2>Colonna 1</h2>
+            <p>
+              Metà larghezza su dispositivi piccoli e un terzo su dispositivi
+              medi
+            </p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="card bg-success ps-2 pe-2">
+            <h2>Colonna 2</h2>
+            <p>
+              Metà larghezza su dispositivi piccoli e un terzo su dispositivi
+              medi
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card bg-danger ps-2 pe-2">
+            <h2>Colonna 3</h2>
+            <p>
+              Larghezza intera su dispositivi piccoli(col-12) e un terzo su
+              dispositivi medi e più grandi
+            </p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card bg-info ps-2 pe-2">
+            <h1>Colonna 1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card bg-warning ps-2 pe-2">
+            <h1>Colonna 2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card bg-dark ps-2 pe-2">
+            <h1>Colonna 3</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card ps-2 pe-2 text-dark">
+            <h1>Colonna 4</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
       </div>
     </div>
   </body>
